@@ -41,7 +41,7 @@ function ContactPage() {
                             <i className="fas fa-globe"></i>
                         </span>
                         <span>Website</span>
-                        <p>www.sarahlab.com</p>
+                        <p>www.jacoblab.com</p>
                     </div>
                 </div>
 

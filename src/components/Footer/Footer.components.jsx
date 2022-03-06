@@ -5,7 +5,7 @@ function Footer() {
     <footer className="footer">
             <div className="footer-container container">
                 <div>
-                    <h2>SARAH DOE</h2>
+                    <h2>Jacob Moran</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel obcaecati sapiente minima itaque nam modi libero optio vitae animi, praesentium quis commodi fugit quasi nostrum nihil veniam nisi suscipit cumque ducimus error doloribus est voluptatum at? Et aut mollitia quia.</p>
                 </div>
                 <div>
@@ -19,7 +19,6 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <p>&copy; Copyright SARAHDOE . SIMPLE AND NICE TEMPALTE</p>
         </footer>
   )
 }

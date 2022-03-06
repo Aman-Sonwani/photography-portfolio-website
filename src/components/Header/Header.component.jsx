@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./styles.component.css";
 
+
+
 function Header() {
   return (
     <div>
@@ -9,7 +11,7 @@ function Header() {
             <div className="nav-section">
                 <div className="brand-and-navBtn">
                     <span className="brand-name">
-                        SARAHLAB
+                        JACOBLAB
                     </span>
                     <span className="navBtn flex">
                         <i className="fas fa-bars"></i>
@@ -34,7 +36,7 @@ function Header() {
                     <div className="about-img flex">
                         <img src={require('../../images/about-img.jpg')} alt = "photographer img"/>
                     </div>
-                    <h2>I'm Sarah Doe</h2>
+                    <h2>I'm Jacob Moran</h2>
                     <h3>Photographer | Traveller</h3>
                     <blockquote>
                         "Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever ... It remembers little things, long after you have forgotten everything."
@@ -63,5 +65,17 @@ function Header() {
     </div>
   )
 }
+const showBtn = document.querySelector('.navBtn');
+const topNav = document.querySelector('.top-nav');
+
+showBtn.addEventListener('click', function(){
+    if(topNav.classList.contains('showNav')){
+        topNav.classList.remove('showNav');
+        showBtn.innerHTML = '<i class = "fas fa-bars"></i>';
+    } else {
+        topNav.classList.add('showNav');
+        showBtn.innerHTML = '<i class = "fas fa-times"></i>';
+    }
+});
 
 export default Header;
